@@ -12,13 +12,8 @@ Gem::Specification.new do |spec|
   spec.email       = ["mikael@mhenrixon.com"]
   spec.homepage    = "https://mhenrixon.github.io/sidekiq-unique-jobs"
   spec.license     = "MIT"
-  spec.summary     = <<~SUMMARY
-    Sidekiq middleware that prevents duplicates jobs
-  SUMMARY
-  spec.description = <<~DESCRIPTION
-    Prevents simultaneous Sidekiq jobs with the same unique arguments to run.
-    Highly configurable to suite your specific needs.
-  DESCRIPTION
+  spec.summary     = 'Sidekiq middleware that prevents duplicates jobs'
+  spec.description = 'Prevents simultaneous Sidekiq jobs with the same unique arguments to run. Highly configurable to suite your specific needs.'
 
   raise "RubyGems 2.0 or newer is required to protect against public gem pushes." unless spec.respond_to?(:metadata)
 
